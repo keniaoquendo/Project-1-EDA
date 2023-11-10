@@ -1,0 +1,4 @@
+COVID-19 Vaccinations in the United States
+Date generated: Tue Nov 07 2023 21:39:21 GMT-0800 (Pacific Standard Time)
+'Other' includes doses of vaccine administered or delivered that are not from Pfizer-BioNTech Moderna J&J or Novavax.
+					 'Original' includes primary series and booster vaccine doses that are not updated (bivalent) formulations.
