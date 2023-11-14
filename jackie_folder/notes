@@ -1,2 +1,5 @@
+was tasked with cleaning NH Covid Vax Averages csv
 cleaned the little csv -> deleted a column, and dropped rows GU and PR
+uploaded the original, the clean one, and the code to clean it
+
 next: decide specific questions and which to do, will do in class Nov 13 23
