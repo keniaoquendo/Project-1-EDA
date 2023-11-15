@@ -28,7 +28,7 @@
 
 ## Analysis
 ### H1
-* How many people died of covid per state?
+* How many people died of covid per state? 
     * Show deaths per state visual. 
         - Break into regions (each graph has states in that region) 
         - 4 or 5 graphs in one slide, instead of all states on one graph
