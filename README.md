@@ -10,8 +10,8 @@
 * Our prediction is to reject the Null Hypothesis 1.
 * Logic: If the population is densely concentrated, then death rates by percent of the population will be higher, because the population will have a higher rate of interaction with one another.
 
-### Null Hypothesis 2: Vaccination does NOT correlate to a decrease in death risk.
-### Alterate Hypothesis 2: Vaccination correlates to a decrease in death risk.
+### Null Hypothesis 2: Vaccination does NOT contribute to a decrease in death risk.
+### Alterate Hypothesis 2: Vaccination contributes to a decrease in death risk.
 * Our prediction is to reject the Null Hypothesis 2.
 * Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
 
