@@ -1,0 +1,35 @@
+Kenia: 
+
+read in XL, Large, Medium, Small state csv files
+
+use the transpose function - df.transpose() 
+    -create separate df (from original state dfs) with columns of interest
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.transpose.html
+https://stackoverflow.com/questions/44236536/multiple-pie-chart-for-each-row-pandas
+
+example:
+---------------------------------------------------------------------------------
+df = pd.DataFrame({'beer':[1,2,3],
+                   'spirit':[4,5,6],
+                   'wine':[7,8,9]}, index=['Africa','Asia','Europe'])
+
+print (df)
+        beer  spirit  wine
+Africa     1       4     7
+Asia       2       5     8
+Europe     3       6     9
+
+df.T.plot.pie(subplots=True, figsize=(10, 3))
+----------------------------------------------------------------------------
+
+    to create:
+    - pie charts per state:
+        -total deaths vs covid19 vs pnuem&covid19
+        -total doses distributed vs Total doses administered by jurisdiction
+        -total doses distributed vs Residents with at least one dose
+        -total doses distributed 
+            vs Residents 65+ with a completed primary series 
+            vs Residents 18+ with a completed primary series 
+            vs Residents 12+ with a completed primary series 
+            vs Residents 5+ with a completed primary series
+
