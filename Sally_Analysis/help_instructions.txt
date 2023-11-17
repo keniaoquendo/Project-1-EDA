@@ -33,3 +33,6 @@ df.T.plot.pie(subplots=True, figsize=(10, 3))
             vs Residents 12+ with a completed primary series 
             vs Residents 5+ with a completed primary series
 
+    - Scatter plot
+        - 2022 Estimate population vs COVID-19 deaths
+        - 
