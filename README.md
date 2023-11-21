@@ -1,5 +1,5 @@
 # Project-1-EDA 
-By: Sally Anderson, Kenia Oquendo Berrios, Gwendolyn Lukman and Jackie Rosales
+By: Sally Anderson, Kenia Oquendo Berrios, Gwendolyn Lukman, and Jackie Rosales
 Title: COVID-19 (and factors leading to) Deaths
 
 # Introduction
@@ -12,9 +12,10 @@ Analysis: External factors affecting death rates
 - 2022 state populations
 
 # Cleaning the data
-- Filtering states
-- Removing columns
+- Filtering states (removing non-states such as Puerto Rico or Washington DC)
+- Removing columns 
 - Merging csv files together
+- Grouping counties together under one state
 
 # Reasearch Hypothesis
 ## Hypothesis 1
