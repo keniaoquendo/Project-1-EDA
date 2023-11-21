@@ -1,33 +1,46 @@
-# Project-1-EDA
-## Vaccination Rates and COVID-19 Deaths
+# Project-1-EDA 
+By: Sally Anderson, Kenia Oquendo Berrios, Gwendolyn Lukman and Jackie Rosales
+Title: COVID-19 (and factors leading to) Deaths
 
-## Introduction
+# Introduction
+Topic: Healthcare on COVID 19
+Analysis: External factors affecting death rates
 
-## Reasearch Hypothesis
-### Null Hypothesis 1: The percent of people who died of COVID-19 is NOT affected by the state population.
-### Alternate Hypothesis 1: The percent of people who died of COVID-19 will be higher in more highly populated states than in less populated states.
+# Datasets
+- Covid 19 deaths by sex and age
+- Covid 19 vaccination rates
+- 2022 state populations
+
+# Cleaning the data
+- Filtering states
+- Removing columns
+- Merging csv files together
+
+# Reasearch Hypothesis
+## Hypothesis 1
+Null Hypothesis 1
+- The percent of people who died of COVID-19 is NOT affected by the state population.
+Alternate Hypothesis 1
+- The percent of people who died of COVID-19 will be higher in more highly populated states than in less populated states.
 
 * Our prediction is to reject the Null Hypothesis 1.
 * Logic: If the population is densely concentrated, then death rates by percent of the population will be higher, because the population will have a higher rate of interaction with one another.
 
-### Null Hypothesis 2: Vaccination does NOT contribute to a decrease in death risk.
-### Alterate Hypothesis 2: Vaccination contributes to a decrease in death risk.
+## Hypothesis 2
+Null Hypothesis 2
+- Vaccination does NOT contribute to a decrease in death risk.
+Alterate Hypothesis 2
+- Vaccination contributes to a decrease in death risk.
 * Our prediction is to reject the Null Hypothesis 2.
 * Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
 
-## Datasets
-* deaths per state
-* states  pop
-* vax per state
-
-## Process
-### Collect data
-* Clean
-* Merge
-* Analyze
 
 ## Analysis
 ### H1
+* What is the population per state?
+- show a bar chart showing the 2022 population estimate per state
+
+
 * How many people died of covid per state? 
     * Show deaths per state visual. 
         - Break into regions (each graph has states in that region) 
