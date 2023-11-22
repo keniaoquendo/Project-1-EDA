@@ -65,7 +65,16 @@ The histogram of all states show highly skewed data
 
 ## Death Comparisons - slide 15
 - We arbitrarily chose states to represent each group\, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
-- XL State
+XL State - Large State
+![image](images/XL_death_comp.png)![image](images/large_death_comp.png)
+
+
+- Medium State- Small State
+![image](images/medium_death_comp.png)![image](images/small_death_comp.png)
+
+
+
+XL State
 ![image](images/XL_death_comp.png)
 - Large State
 ![image](images/large_death_comp.png)
