@@ -84,27 +84,23 @@ Residents 65+ with a completed primary series, Residents 18+ with a completed pr
 ![image](images/large_doses_bar.png)
 ![image](images/large_doses_bar.png)
 ![image](images/small_doses_bar.png)
-*Trends:
+* Trends:
 65+ demographic had the lowest vaccination rates out of all the groups tested.
 - We predicted this would be the highest because they were considered the highest risk group for death. 
 - We are unsure about why this was the case since each state targeted this demographic heavily
 
 All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
 Possible explanation: 
--School age children (5+ & 12+ groups) were required to be vaccinated before going back to school
--18+ group were wanting to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
--18+ group may have been required by their workplace to be vaccinated before returning to work in person
-
+- School age children (5+ & 12+ groups) were required to be vaccinated before going back to school
+- 18+ group were wanting to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
+- 18+ group may have been required by their workplace to be vaccinated before returning to work in person
 
 ## Doses per State
- - All states did not administer all doses that were distributed.
+ Trend: All states did not administer all doses that were distributed.
+ ![image](images/doses.PNG)
 
-## Correlation between Vaccination vs Total Deaths - slide 21
-- The scatter plot shows the percent of total population with at least one dose vs total deaths.
-- r-squared is 0.0069 which meant that there is no or very weak correlation between vaccination and death
-
-## H1: Hypothesis Testing - slide 22
-- Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
+## H1: Hypothesis Testing
+Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
 - p-value are as follows: 
     - All states: 0.00000008308
     - XL: 0.00791821963
@@ -114,7 +110,7 @@ Possible explanation:
 Conclusion: We CANNOT REJECT: Alternate Hypothesis 1
 - The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
 
-## H2: Hypothesis Testing - slide 23
+## H2: Hypothesis Testing 
 - Shows independent t-tests for “Residents with at least one dose” vs 
 “COVID-19 Deaths”
 - p-value are as follows: 
@@ -126,15 +122,23 @@ Conclusion: We CANNOT REJECT: Alternate Hypothesis 1
 Conclusion: We CANNOT REJECT Alternate Hypothesis 2
 - Vaccination contributes to a decrease in the likehood of deaths from COVID-19
 
-## Summary of Findings
-Question 1: What is the relationship between the amount of people who died of COVID-19 and the state population?
-Based on the data, we CANNOT REJECT the alternative hypothesis that says: The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
+# Summary of Findings
+Question 1: 
+* What is the relationship between the amount of people who died of COVID-19 and the state population?
 
-Question 2: What is the relationship between vaccination and its ability to protect from COVID-19 death? 
-Based on the data, we CANNOT REJECT the alternative hypothesis that says: Vaccination contributes to a decrease in the likelihood of death from COVID-19.
+* Based on the data, we CANNOT REJECT the alternative hypothesis that says: The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
 
-Limitations: limited to USA, only cumulative data (year 2020 - 2023), population data is only from latest 2022 Census data (does not account for population changes in 2023)
-In the future, include data such as gender, age, or analyze the datasets through time (years, months)
+Question 2:
+* What is the relationship between vaccination and its ability to protect from COVID-19 death? 
+
+* Based on the data, we CANNOT REJECT the alternative hypothesis that says: Vaccination contributes to a decrease in the likelihood of death from COVID-19.
+
+# Limitations and Future Works
+* Limited to USA
+* cumulative data (year 2020 - 2023)
+* Population data is only from latest 2022 Census data (does not account for population changes in 2023)
+
+* Future works include analyzing additional data, such as gender, age, to see effects on death, and through time (years, months).
 
 ## Resources
 1. Provisional COVID-19 Deaths by Sex and Age: https://catalog.data.gov/dataset/provisional-covid-19-death-counts-by-sex-age-and-state
