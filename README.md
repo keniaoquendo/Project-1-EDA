@@ -102,12 +102,20 @@ Trends:
 
 ## H1: Hypothesis Testing
 Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
-- p-value are as follows: 
+- All p-values are below p = 0.05: 
     - All states: 0.00000008308
     - XL: 0.00791821963
     - L: 0.00000000768
     - M: 0.00000000001
     - S: 0.00000067855
+
+| Population vs COVID-19 Death | p-values |
+|------------|---------|
+| All states | 0.00000008308 | 
+| XL | 0.00791821963 | 
+| L | 0.00000000768 | 
+| M   | 0.00000000001 | 
+| S   | 0.00000067855 | 
 
 Conclusion: 
 - We REJECT Null Hypothesis 1: The amount of people who died of COVID-19 is NOT affected by the state population.
