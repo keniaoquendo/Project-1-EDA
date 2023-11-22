@@ -102,13 +102,7 @@ Trends:
 
 ## H1: Hypothesis Testing
 Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
-- All p-values are below p = 0.05: 
-    - All states: 0.00000008308
-    - XL: 0.00791821963
-    - L: 0.00000000768
-    - M: 0.00000000001
-    - S: 0.00000067855
-
+- All p-values are far below p = 0.05: 
 | Population vs COVID-19 Death | p-values |
 |------------|---------|
 | All states | 0.00000008308 | 
@@ -124,12 +118,14 @@ Conclusion:
 ## H2: Hypothesis Testing 
 - Shows independent t-tests for “Residents with at least one dose” vs 
 “COVID-19 Deaths”
-- p-value are as follows: 
-    - All states: 0.00000025333
-    - XL: 0.00820147030
-    - L: 0.00000002761
-    - M: 0.00000000004
-    - S: 0.00000223341
+- All p-values are far below p = 0.05: 
+| Vaccination vs COVID-19 Death | p-values |
+|------------|---------|
+| All states | 0.00000025333 | 
+| XL | 0.00820147030 | 
+| L | 0.00000002761 | 
+| M   | 0.00000000004 | 
+| S   | 0.00000223341 | 
 
 Conclusion: 
 - We REJECT Null Hypothesis 2: Vaccination does NOT contribute to a decrease in the likelihood of death from COVID-19.
