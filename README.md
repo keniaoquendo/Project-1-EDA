@@ -8,10 +8,10 @@
 * Analysis: Factors affecting COVID-19 death rates
 
 The subject of this analysis is healthcare - specifically, COVID-19 death rates.  The chosen factors for hypothesis testing is if population density affects COVID-19 death rate, and if vaccination rates affect COVID-19 death rates. The data was collected from U.S. Census, U.S. Department of Health & Human Services (HHS), Centers for Disease Control and Prevention (CDC). 
-* Time and scope were limiting factors:
-- Cummulative vaccination data, totaling years 2020-2023
-- Only states were chosen - all other U.S. territories were removed from the data set
-- All sexes were analysized
+- Time and scope were limiting factors:
+    - Cummulative vaccination data, totaling years 2020-2023
+    - Only states were chosen - all other U.S. territories were removed from the data set
+    - All sexes were analysized
 
 Our analysis will highlight major trends, and if external factors influence COVID-19 death rates.
 
