@@ -84,16 +84,17 @@ Residents 65+ with a completed primary series, Residents 18+ with a completed pr
 ![image](images/large_doses_bar.png)
 ![image](images/large_doses_bar.png)
 ![image](images/small_doses_bar.png)
-* Trends:
-65+ demographic had the lowest vaccination rates out of all the groups tested.
-- We predicted this would be the highest because they were considered the highest risk group for death. 
-- We are unsure about why this was the case since each state targeted this demographic heavily
 
-All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
-Possible explanation: 
-- School age children (5+ & 12+ groups) were required to be vaccinated before going back to school
-- 18+ group were wanting to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
-- 18+ group may have been required by their workplace to be vaccinated before returning to work in person
+Trends:
+- 65+ demographic had the lowest vaccination rates out of all the groups tested.
+    - We predicted this would be the highest because they were considered the highest risk group for death. 
+    - We are unsure about why this was the case since each state targeted this demographic heavily
+
+-All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
+    - Possible explanation: 
+        - School age children (5+ & 12+ groups) were required to be vaccinated before going back to school
+        - 18+ group were wanting to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
+        - 18+ group may have been required by their workplace to be vaccinated before returning to work in person
 
 ## Doses per State
  Trend: All states did not administer all doses that were distributed.
@@ -121,7 +122,7 @@ Conclusion:
     - L: 0.00000002761
     - M: 0.00000000004
     - S: 0.00000223341
-    
+
 Conclusion: 
 - We REJECT Null Hypothesis 2: Vaccination does NOT contribute to a decrease in the likelihood of death from COVID-19.
 - We CANNOT REJECT Alternate Hypothesis 2: Vaccination contributes to a decrease in the likehood of deaths from COVID-19
