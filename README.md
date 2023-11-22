@@ -89,7 +89,7 @@ Trends:
 - 65+ demographic had the lowest vaccination rates out of all the groups tested.
     - We predicted this would be the highest because they were considered the highest risk group for death. 
     - We are unsure about why this was the case since each state targeted this demographic heavily
--All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
+- All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
     - Possible explanation: 
         - School age children (5+ & 12+ groups) were required to be vaccinated before going back to school
         - 18+ group were wanting to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
