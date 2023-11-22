@@ -23,21 +23,22 @@ CDC: COVID-19 vaccination rates
 
 # Reasearch Hypothesis
 ## Hypothesis 1
-Null Hypothesis 1
-- The percent of people who died of COVID-19 is NOT affected by the state population.
-Alternate Hypothesis 1
-- The percent of people who died of COVID-19 will be higher in more highly populated states than in less populated states.
+- Null Hypothesis 1
+    - The percent of people who died of COVID-19 is NOT affected by the state population.
+- Alternate Hypothesis 1
+    - The percent of people who died of COVID-19 will be higher in more highly populated states than in less populated states.
 
-* Our prediction is to reject the Null Hypothesis 1.
-* Logic: If the population is densely concentrated, then death rates by percent of the population will be higher, because the population will have a higher rate of interaction with one another.
+Our prediction is to reject the Null Hypothesis 1.
+- Logic: If the population is densely concentrated, then death rates by percent of the population will be higher, because the population will have a higher rate of interaction with one another.
 
 ## Hypothesis 2
-Null Hypothesis 2
-- Vaccination does NOT contribute to a decrease in death risk.
-Alterate Hypothesis 2
-- Vaccination contributes to a decrease in death risk.
-* Our prediction is to reject the Null Hypothesis 2.
-* Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
+- Null Hypothesis 2
+    - Vaccination does NOT contribute to a decrease in death risk.
+- Alterate Hypothesis 2
+    - Vaccination contributes to a decrease in death risk.
+
+- Our prediction is to reject the Null Hypothesis 2.
+    - Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
 
 # Analysis
 ## Cleaning and assembling data
