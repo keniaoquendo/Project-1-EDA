@@ -1,24 +1,28 @@
-# Project-1-EDA - slide 1
-By: Sally Anderson, Kenia Oquendo Berrios, Gwendolyn Lukman, and Jackie Rosales
-Title: COVID-19 (and factors leading to) Deaths
+# Project-1:
+## Vaccination and COVID-19 Deaths
+#### By: Sally Anderson, Kenia Oquendo Berrios, Gwendolyn Lukman, and Jackie Rosales
 
-# Introduction - slide 3
-Topic: Healthcare on COVID 19
-Analysis: External factors affecting death rates
 
-# Datasets - slide 4
-- Covid 19 deaths by sex and age
-- Covid 19 vaccination rates
-- 2022 state populations
+# Introduction 
+* Topic: Healthcare 
+* Analysis: Factors affecting COVID-19 death rates
 
-# Cleaning the data - slide 5
-- Filtering states (removing non-states such as Puerto Rico or Washington DC)
-- Removing columns 
-- Merging csv files together
-- Grouping counties together under one state
+* The subject of our analysis was healthcare. Specifically, COVID-19 and death rates. Our analysis will conclude if external factors influence COVID-19 death rates. The chosen factors for this analysis are: population density and vaccine rates. 
+* data was collected from government sources and cleaned. 
+Time and scope were limiting factors: cummulative total 2020-2023 
+states were only chosen and all other territories were remmoved from the data set.
+we analysized the dataset that combined both sexes
+
+
+# Datasets
+Data.gov: Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.  
+
+Census.gov: 2022 Population Estimate
+
+CDC: COVID-19 vaccination rates
 
 # Reasearch Hypothesis
-## Hypothesis 1 - slide 7
+## Hypothesis 1
 Null Hypothesis 1
 - The percent of people who died of COVID-19 is NOT affected by the state population.
 Alternate Hypothesis 1
@@ -27,7 +31,7 @@ Alternate Hypothesis 1
 * Our prediction is to reject the Null Hypothesis 1.
 * Logic: If the population is densely concentrated, then death rates by percent of the population will be higher, because the population will have a higher rate of interaction with one another.
 
-## Hypothesis 2 - slide 8
+## Hypothesis 2
 Null Hypothesis 2
 - Vaccination does NOT contribute to a decrease in death risk.
 Alterate Hypothesis 2
@@ -35,8 +39,12 @@ Alterate Hypothesis 2
 * Our prediction is to reject the Null Hypothesis 2.
 * Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
 
+# Cleaning and assembling data
+The United States has extreme variance in the population. 
+![image](images/Population_every_state.png)
 
-## Analysis
+
+# Analysis
 ## Population per state - slide 9
 
 - show a bar chart showing the 2022 population estimate per state
@@ -102,5 +110,11 @@ Based on the data, we CANNOT REJECT the alternative hypothesis that says: Vaccin
 
 Limitations: limited to USA, only cumulative data (year 2020 - 2023), population data is only from latest 2022 Census data (does not account for population changes in 2023)
 In the future, include data such as gender, age, or analyze the datasets through time (years, months)
+
+## Resources
+1. Provisional COVID-19 Deaths by Sex and Age: https://catalog.data.gov/dataset/provisional-covid-19-death-counts-by-sex-age-and-state
+2. 2022 Population Estimate: https://www2.census.gov/programs-surveys/popest/datasets/2020-2022/state/totals/
+3. COVID-19 vaccination rates: https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-people-booster-percent-pop5 
+
 
 
