@@ -107,6 +107,7 @@ Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deat
     - L: 0.00000000768
     - M: 0.00000000001
     - S: 0.00000067855
+
 Conclusion: 
 - We REJECT Null Hypothesis 1: The amount of people who died of COVID-19 is NOT affected by the state population.
 - We CANNOT REJECT Alternate Hypothesis 1: The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
@@ -120,6 +121,7 @@ Conclusion:
     - L: 0.00000002761
     - M: 0.00000000004
     - S: 0.00000223341
+    
 Conclusion: 
 - We REJECT Null Hypothesis 2: Vaccination does NOT contribute to a decrease in the likelihood of death from COVID-19.
 - We CANNOT REJECT Alternate Hypothesis 2: Vaccination contributes to a decrease in the likehood of deaths from COVID-19
