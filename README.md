@@ -1,4 +1,4 @@
-# Project-1:
+# Project-1
 ## Vaccination and COVID-19 Deaths
 #### By: Sally Anderson, Kenia Oquendo Berrios, Gwendolyn Lukman, and Jackie Rosales
 
@@ -7,7 +7,13 @@
 * Topic: Healthcare 
 * Analysis: Factors affecting COVID-19 death rates
 
-The subject of our analysis was healthcare. Specifically, COVID-19 and death rates.  The chosen factors for this analysis are: population density and vaccination rates.The data was collected from U.S. Census, U.S. Department of Health & Human Services, Centers for Disease Control and Prevention. Time and scope were limiting factors, cummulative total 2020-2023, only states were chosen, and all other U.S. territories were remmoved from the data set. We analysized the dataset that combined both sexes. Our analysis will highlight major trends, and if external factors influence COVID-19 death rates.
+The subject of this analysis is healthcare - specifically, COVID-19 death rates.  The chosen factors for hypothesis testing is if population density affects COVID-19 death rate, and if vaccination rates affect COVID-19 death rates. The data was collected from U.S. Census, U.S. Department of Health & Human Services (HHS), Centers for Disease Control and Prevention (CDC). 
+* Time and scope were limiting factors:
+- Cummulative vaccination data, totaling years 2020-2023
+- Only states were chosen - all other U.S. territories were removed from the data set
+- All sexes were analysized
+
+Our analysis will highlight major trends, and if external factors influence COVID-19 death rates.
 
 
 # Datasets
