@@ -57,18 +57,19 @@ To help normalize the data, we classified the states by their population sizes a
 - XL States = population > 19,677,151 and < 39,029,342
 - Accounts for 33% of total United States population
 
-With the new dataset, with outliers states removed, we ran another interquartile analysis to create threshold for new datasets for the rest of the states.
-- Large States (Q3 - top 75% of data) = population < 19,677,151 and > 6,944,739
+With the new dataset, with outliers states removed, we ran another interquartile analysis to create threshold for new datasets for the rest of the states:
+
+Large States (Q3 - top 75% of data) = population < 19,677,151 and > 6,944,739
 - Accounts for 35% of total United States population
 
-- Medium States (Q2 - 50% of data) = population < 6,944,739 & > 1,816,125
+Medium States (Q2 - 50% of data) = population < 6,944,739 & > 1,816,125
 - Accounts for 28% of total United States population
 
-- Small States (Q1 - lowest 25% of data)= population < 1,816,125
+Small States (Q1 - lowest 25% of data)= population < 1,816,125
 - Accounts for 4% of total United States population
 
 ## Death Comparisons 
-- We arbitrarily chose states to represent each group\, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
+We arbitrarily chose states to represent each group\, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
 ![image](images/death_comp.PNG)
 
 - For our death comparisons we randomly chose 4 states from each group to represent its population group. the blue area shows the total of all deaths that happened, regardless of the reason. Our XL states had roughly 10% of their total deaths be due to COVID, while the large and medium state groups ranged from 7-9%, with our small states having roughly 5%. 
