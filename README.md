@@ -38,6 +38,7 @@ Alterate Hypothesis 2
 
 ## Analysis
 ## Population per state - slide 9
+
 - show a bar chart showing the 2022 population estimate per state
 - We can see that there is a lot of variance betweeen the state populations
 
@@ -62,9 +63,36 @@ Alterate Hypothesis 2
 - r-squared is 0.0069 which meant that there is no or very weak correlation between vaccination and death
 
 ## H1: Hypothesis Testing - slide 22
-- Shows independent t-tests for 2022 Population Estimate vs COVID-19 Deaths
+- Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
 - p-value are as follows: 
+    - All states: 0.00000008308
+    - XL: 0.00791821963
+    - L: 0.00000000768
+    - M: 0.00000000001
+    - S: 0.00000067855
+Conclusion: We CANNOT REJECT: Alternate Hypothesis 1
+- The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
 
+## H2: Hypothesis Testing - slide 23
+- Shows independent t-tests for “Residents with at least one dose” vs 
+“COVID-19 Deaths”
+- p-value are as follows: 
+    - All states: 0.00000025333
+    - XL: 0.00820147030
+    - L: 0.00000002761
+    - M: 0.00000000004
+    - S: 0.00000223341
+Conclusion: We CANNOT REJECT Alternate Hypothesis 2
+- Vaccination contributes to a decrease in the likehood of deaths from COVID-19
 
-## H2: Hypothesis Tesing - slide 23
+## Summary of Findings
+Question 1: What is the relationship between the amount of people who died of COVID-19 and the state population?
+Based on the data, we CANNOT REJECT the alternative hypothesis that says: The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
+
+Question 2: What is the relationship between vaccination and its ability to protect from COVID-19 death? 
+Based on the data, we CANNOT REJECT the alternative hypothesis that says: Vaccination contributes to a decrease in the likelihood of death from COVID-19.
+
+Limitations: limited to USA, only cumulative data (year 2020 - 2023), population data is only from latest 2022 Census data (does not account for population changes in 2023)
+In the future, include data such as gender, age, or analyze the datasets through time (years, months)
+
 
