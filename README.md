@@ -7,19 +7,13 @@
 * Topic: Healthcare 
 * Analysis: Factors affecting COVID-19 death rates
 
-* The subject of our analysis was healthcare. Specifically, COVID-19 and death rates. Our analysis will conclude if external factors influence COVID-19 death rates. The chosen factors for this analysis are: population density and vaccine rates. 
-* data was collected from government sources and cleaned. 
-Time and scope were limiting factors: cummulative total 2020-2023 
-states were only chosen and all other territories were remmoved from the data set.
-we analysized the dataset that combined both sexes
+The subject of our analysis was healthcare. Specifically, COVID-19 and death rates.  The chosen factors for this analysis are: population density and vaccination rates.The data was collected from U.S. Census, U.S. Department of Health & Human Services, Centers for Disease Control and Prevention. Time and scope were limiting factors, cummulative total 2020-2023, only states were chosen, and all other U.S. territories were remmoved from the data set. We analysized the dataset that combined both sexes. Our analysis will highlight major trends, and if external factors influence COVID-19 death rates.
 
 
 # Datasets
-Data.gov: Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.  
-
-Census.gov: 2022 Population Estimate
-
-CDC: COVID-19 vaccination rates
+* HHS Data.gov: Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.  
+* Census.gov: 2022 Population Estimate
+* CDC cdc.gov: COVID-19 vaccination rates
 
 # Reasearch Hypothesis
 ## Hypothesis 1
@@ -71,7 +65,7 @@ Small States (Q1 - lowest 25% of data)= population < 1,816,125
 - States: ME, NH, RI, VT, DE, ND, SD, WV, AK, HI, MT, WY
 
 ## Death Comparisons 
-We arbitrarily chose states to represent each group\, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
+We arbitrarily chose states to represent each group, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
 ![image](images/death_comp.PNG)
 - The blue area shows the total of all deaths, due to any reason. The green area represents death due to multiple conditions (Pneumonia and COVID-19). The orange area represent death due to COVID-19. 
 - The XL states had roughly 10% of the total deaths be due to COVID, while the large and medium state groups ranged from 7-9%, and the small states having roughly 5%. 
@@ -152,9 +146,9 @@ Question 2:
 * Future works include analyzing additional data, such as gender, age, to see effects on death, and through time (years, months).
 
 ## Resources
-1. Provisional COVID-19 Deaths by Sex and Age: https://catalog.data.gov/dataset/provisional-covid-19-death-counts-by-sex-age-and-state
-2. 2022 Population Estimate: https://www2.census.gov/programs-surveys/popest/datasets/2020-2022/state/totals/
-3. COVID-19 vaccination rates: https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-people-booster-percent-pop5 
+1. HHS - Provisional COVID-19 Deaths by Sex and Age: https://catalog.data.gov/dataset/provisional-covid-19-death-counts-by-sex-age-and-state
+2. Census - 2022 Population Estimate: https://www2.census.gov/programs-surveys/popest/datasets/2020-2022/state/totals/
+3. CDC - COVID-19 vaccination rates: https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-people-booster-percent-pop5 
 
 
 
