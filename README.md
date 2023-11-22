@@ -37,8 +37,8 @@ Our prediction is to reject the Null Hypothesis 1.
 - Alterate Hypothesis 2
     - Vaccination contributes to a decrease in death risk.
 
-- Our prediction is to reject the Null Hypothesis 2.
-    - Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
+Our prediction is to reject the Null Hypothesis 2.
+- Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
 
 # Analysis
 ## Cleaning and assembling data
