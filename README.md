@@ -103,6 +103,7 @@ Trends:
 ## H1: Hypothesis Testing
 Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
 - All p-values are far below p = 0.05: 
+
 | Population vs COVID-19 Death | p-values |
 |------------|---------|
 | All states | 0.00000008308 | 
@@ -119,6 +120,7 @@ Conclusion:
 - Shows independent t-tests for “Residents with at least one dose” vs 
 “COVID-19 Deaths”
 - All p-values are far below p = 0.05: 
+
 | Vaccination vs COVID-19 Death | p-values |
 |------------|---------|
 | All states | 0.00000025333 | 
