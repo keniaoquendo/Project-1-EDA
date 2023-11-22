@@ -39,30 +39,40 @@ Alterate Hypothesis 2
 * Our prediction is to reject the Null Hypothesis 2.
 * Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
 
-# Cleaning and assembling data
-The United States has extreme variance in the population. 
+# Analysis
+## Cleaning and assembling data
+
+### Population per state
+The United States has a population that varies widely among the diffrent states. 
 ![image](images/Population_every_state.png)
 
+The histogram of all states show highly skewed data
+![image](images/All_states_Pop_histogram.png)
 
-# Analysis
-## Population per state - slide 9
-
-- show a bar chart showing the 2022 population estimate per state
-- We can see that there is a lot of variance betweeen the state populations
-
-## Deaths Per Region = Skewed Data - slide 10
-- shows a pie chart of the COVID-19 deaths per region and Pnuemonia and COVID-19 Deaths Per region
-- we initially reviewed the data and decided that we wanted representation of more than just the individual states. So we decided to group the states by region, however when we did and started running our analysis we noticed that our histograms were all positively skewed, and that our variance and std deviation was rather large. 
-
-## Calculating the Quartile and classifying states into different groups - slide 11-14
-- We classified the states by their population sizes and came up with 4 groups (XL, large, medium and small)
-- we used interquartile range to find our outliers, which ended up being 4 major states, NY, FL, TX, & CA. our original histogram showed positively skewed data, given that the tail of the data is trailing off to the right, which told us that we have some distance between all of our data.  As compared to the new histogram, that had the outliers removed, we can see a more even distribution overall. We also have a big difference in the population variance and standard deviation. In our original approach with using regions we had a higher variance and standard deviation, which told us that our data was far from the mean and confirmed it was very spread out. 
-- Using the inter quartile range not only helped us to determine our outliers, but it also helped us determine the thresholds of the populations, and it was with this that we were able to divide the states for a more even comparison/analysis. In the 75% quartile range to name a few we have Washington state and Illinois, in our 50% quartile range we have states such as Maryland and Colorado, and in the 25% quartile range we have states such as Hawaii and Wyoming. 
-- We re-did our  histogram with the outliers and it was still heavily skewed, we considered removing these outlier states, and only focusing on the other states, but these outliers make up 33% of the population, given that significance we decided to keep it to compare. 
-- We created all new data frames for these groups and have a more even distribution, with the large states making up 35% of the population, the medium states making up 28% of the population and the small states making up 4% of the population 
+### Calculating the Quartile and classifying states into different groups - 
+- To help normalize the data, we classified the states by their population sizes and came up with 4 groups using interquartile analysis 
+(XL, Large, Medium and Small)
+- We removed the outlier states: NY, FL, TX, & CA. 
+    -XL States = population > 19,677,151 and < 39,029,342
+        -Accounts for 33% of total United States population
+- With the new dataset, with outliers states removed, we ran another interquartile analysis to create threshold for new datasets for the rest of the states.
+    -Large States (Q3 - top 75% of data) = population < 19,677,151 and > 6,944,739
+        -Accounts for 35% of total United States population
+    -Medium States (Q2 - 50% of data) = population < 6,944,739 & > 1,816,125
+        -Accounts for 28% of total United States population
+    -Small States (Q1 - lowest 25% of data)= population < 1,816,125
+        -Accounts for 4% of total United States population
 
 ## Death Comparisons - slide 15
-- We chose certain states that represent each group and made a pie chart of showing the Total Deaths, COVID-19 Deaths and Pneumonia and COVID-19 Deaths
+- We arbitrarily chose states to represent each group\, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
+- XL State
+![image](images/XL_death_comp.png)
+- Large State
+![image](images/large_death_comp.png)
+- Medium State
+![image](images/medium_death_comp.png)
+- Small State
+![image](images/small_death_comp.png)
 - For our death comparisons we randomly chose 4 states from each group to represent its population group. the blue area shows the total of all deaths that happened, regardless of the reason. Our XL states had roughly 10% of their total deaths be due to COVID, while the large and medium state groups ranged from 7-9%, with our small states having roughly 5%. 
 - We thought it was interesting that the XL states still carry the higher % death rate while they make up 33% of the population as opposed to the LG state group, that makes up 35% of the population. We assume that it’s because of how dense the actual communities are in the XL states versus those LG states. 
 - We also saw an opportunity to make a prediction on the effect of death rates with those who had multiple conditions. We predicted that the death rates would be overall higher among those with multiple conditions at time of death versus exclusively COVID-19, specifically we looked at the deaths of Pneumonia and COVID-19 versus those with just COVID-19. However the pie charts reject our prediction and show that the percentage of multiple conditions did not make as big of an impact, with percentages ranging from 3% in the Xl populated states, to 1% in the smaller populated states.
