@@ -50,11 +50,9 @@ The histogram of all states show highly skewed data
 ![image](images/All_states_Pop_histogram.png)
 
 ### Calculating the Quartile and classifying states into different groups  
-To help normalize the data, we classified the states by their population sizes and came up with 4 groups using interquartile analysis 
-(XL, Large, Medium and Small)
+To help normalize the data, we classified the states by their population sizes and came up with 4 groups using interquartile analysis (XL, Large, Medium and Small). We removed the outlier states: NY, FL, TX, & CA. 
 
-- We removed the outlier states: NY, FL, TX, & CA. 
-- XL States = population > 19,677,151 and < 39,029,342
+XL States (outliers) = population > 19,677,151 and < 39,029,342
 - Accounts for 33% of total United States population
 
 With the new dataset, with outliers states removed, we ran another interquartile analysis to create threshold for new datasets for the rest of the states:
