@@ -107,8 +107,9 @@ Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deat
     - L: 0.00000000768
     - M: 0.00000000001
     - S: 0.00000067855
-Conclusion: We CANNOT REJECT: Alternate Hypothesis 1
-- The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
+Conclusion: 
+- We REJECT Null Hypothesis 1: The amount of people who died of COVID-19 is NOT affected by the state population.
+- We CANNOT REJECT Alternate Hypothesis 1: The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
 
 ## H2: Hypothesis Testing 
 - Shows independent t-tests for “Residents with at least one dose” vs 
@@ -119,10 +120,17 @@ Conclusion: We CANNOT REJECT: Alternate Hypothesis 1
     - L: 0.00000002761
     - M: 0.00000000004
     - S: 0.00000223341
-Conclusion: We CANNOT REJECT Alternate Hypothesis 2
-- Vaccination contributes to a decrease in the likehood of deaths from COVID-19
+Conclusion: 
+- We REJECT Null Hypothesis 2: Vaccination does NOT contribute to a decrease in the likelihood of death from COVID-19.
+- We CANNOT REJECT Alternate Hypothesis 2: Vaccination contributes to a decrease in the likehood of deaths from COVID-19
 
 # Summary of Findings
+Major Trends:
+* The XL states had roughly 10% of the total deaths be due to COVID, while the large and medium state groups ranged from 7-9%, and the small states having roughly 5%. 
+* 65+ demographic had the lowest vaccination rates out of all the groups tested.
+* All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
+* All states did not administer all doses that were distributed.
+
 Question 1: 
 * What is the relationship between the amount of people who died of COVID-19 and the state population?
 
@@ -135,7 +143,7 @@ Question 2:
 
 # Limitations and Future Works
 * Limited to USA
-* cumulative data (year 2020 - 2023)
+* Cumulative data (year 2020 - 2023)
 * Population data is only from latest 2022 Census data (does not account for population changes in 2023)
 
 * Future works include analyzing additional data, such as gender, age, to see effects on death, and through time (years, months).
