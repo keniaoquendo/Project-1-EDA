@@ -7,7 +7,7 @@
 * Topic: Healthcare 
 * Analysis: Factors affecting COVID-19 death rates
 
-The subject of this analysis is healthcare - specifically, COVID-19 death rates.  The chosen factors for hypothesis testing is if population density affects COVID-19 death rate, and if vaccination rates affect COVID-19 death rates. The data was collected from U.S. Census, U.S. Department of Health & Human Services (HHS), Centers for Disease Control and Prevention (CDC). 
+The subject of this analysis is healthcare - specifically, COVID-19 death rates.  The chosen factors for hypothesis testing is if population density affects COVID-19 death rate, and if vaccination rates affect COVID-19 death rates. The data was collected from the U.S. Census, U.S. Department of Health & Human Services (HHS), and Centers for Disease Control and Prevention (CDC). 
 - Time and scope were limiting factors:
     - Cummulative vaccination data, totaling years 2020-2023
     - Only states were chosen - all other U.S. territories were removed from the dataset
@@ -17,9 +17,9 @@ Our analysis will highlight major trends, and if external factors influence COVI
 
 
 # Datasets
-* HHS Data.gov: Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.  
-* Census.gov: 2022 Population Estimate
-* CDC cdc.gov: COVID-19 vaccination rates
+* HHS - Data.gov: Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.  
+* U.S. Census - Census.gov: 2022 Population Estimate
+* CDC - cdc.gov: COVID-19 vaccination rates
 
 # Reasearch Hypothesis
 ## Hypothesis 1
@@ -29,7 +29,7 @@ Our analysis will highlight major trends, and if external factors influence COVI
     - The percent of people who died of COVID-19 will be higher in more highly populated states than in less populated states.
 
 Our prediction is to reject the Null Hypothesis 1.
-- Logic: If the population is densely concentrated, then death rates by percent of the population will be higher, because the population will have a higher rate of interaction with one another.
+- Logic: If the population is densely concentrated, then death rates will be higher in more populated states because the population will have a higher rate of person-to-person interaction.
 
 ## Hypothesis 2
 - Null Hypothesis 2
@@ -38,7 +38,7 @@ Our prediction is to reject the Null Hypothesis 1.
     - Vaccination contributes to a decrease in death risk.
 
 Our prediction is to reject the Null Hypothesis 2.
-- Logic: If a person is vaccinated, they are less likely to die, regardless of their state's population density.
+- Logic: If a person is vaccinated, then they are less likely to die from COVID-19.
 
 # Analysis
 ## Cleaning and assembling data
@@ -47,7 +47,7 @@ Our prediction is to reject the Null Hypothesis 2.
 The United States has a population that varies widely among the diffrent states. 
 ![image](images/Population_every_state.png)
 
-The histogram of all states show highly skewed data
+The histogram of all states show highly skewed data.
 ![image](images/All_states_Pop_histogram.png)
 
 ### Calculating the Quartile and classifying states into different groups  
@@ -62,24 +62,28 @@ Large States (Q3 - top 75% of data) = population < 19,677,151 and > 6,944,739
 - Accounts for 35% of total United States population
 - States: MA, NJ, PA, IL, MI, OH, GA, NC, TN, VA, AZ, WA
 
-Medium States (Q2 - 50% of data) = population < 6,944,739 & > 1,816,125
+Medium States (Q2 - 50% of data) = population < 6,944,739 and > 1,816,125
 - Accounts for 28% of total United States population
 - States: CT, IN, IA, MN, MO, WI, AL, AR, KS, KY, LA, MD, MS, NE, OK, SC, CO, ID, NV, NM, OR, UT
 
-Small States (Q1 - lowest 25% of data)= population < 1,816,125
+Small States (Q1 - lowest 25% of data) = population < 1,816,125
 - Accounts for 4% of total United States population
 - States: ME, NH, RI, VT, DE, ND, SD, WV, AK, HI, MT, WY
 
 ## Death Comparisons 
-We arbitrarily chose states to represent each group, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths.
+We arbitrarily chose states to represent each group, showing the Total Deaths, COVID-19 Deaths, and Pneumonia and COVID-19 Deaths. 
+- XL state: New York
+- L state: Pennsylvania
+- M state: Connecticut
+- S state: Maine
 ![image](images/death_comp.PNG)
-- The blue area shows the total of all deaths, due to any reason. The green area represents death due to multiple conditions (Pneumonia and COVID-19). The orange area represent death due to COVID-19. 
+- The blue region shows the total of all deaths, due to any reason. The green region represents death due to multiple conditions (Pneumonia and COVID-19). The orange region represent death due to COVID-19. 
 - The XL states had roughly 10% of the total deaths be due to COVID, while the large and medium state groups ranged from 7-9%, and the small states having roughly 5%. 
-- We thought it was interesting that the XL states still carry the higher percentage death rate while they make up 33% of the population as opposed to the large state group, which contains 35% of the population. This may be explaned by the fact that the XL states have more dense compacted communities.
-- We considered multiple conditions and how is that would raise the potential of death. We predicted that the death rates would be overall higher among those with multiple conditions at time of death versus exclusively COVID-19, specifically we looked at the deaths of Pneumonia and COVID-19 versus those with just COVID-19. However, the pie charts reject our prediction and show that the percentage of multiple conditions did not make as big of an impact, with percentages ranging from 3% in the XL populated states, to 1% in the smaller populated states.
+- We thought it was interesting the XL states still carry the higher percentage death rate while they make up 33% of the population as opposed to the large state group, which contains 35% of the population. This may be explaned by the fact that the XL states have more densely compacted communities.
+- We considered multiple conditions and how it may raise the potential for death. We predicted the death rates would be overall higher among those with multiple conditions at time of death versus exclusively COVID-19. Specifically, we looked at the deaths of Pneumonia and COVID-19 versus those with just COVID-19. However, the pie charts reject our prediction and show that the percentage of multiple conditions did not make as big of an impact, with percentages ranging from 3% in the XL populated states, to 1% in the smaller populated states.
 
 ## Residents with Completed Primary Series
-We made a bar chart of each state by their groups (XL, large, medium, small) that includes, Total doses distributed, Total doses administered by jurisdiction, 
+We made a bar chart of each state by their groups (XL, Large, Medium, Small) that includes, Total doses distributed, Total doses administered by jurisdiction, 
 Residents 65+ with a completed primary series, Residents 18+ with a completed primary series, Residents 12+ with a completed primary series, Residents 5+ with a completed primary series
 ![image](images/XL_dose_bar.png)
 ![image](images/large_doses_bar.png)
@@ -87,21 +91,26 @@ Residents 65+ with a completed primary series, Residents 18+ with a completed pr
 ![image](images/small_doses_bar.png)
 
 Trends:
-- 65+ demographic had the lowest vaccination rates out of all the groups tested.
+- 65+ demographic had the lowest vaccination rates out of all the groups.
     - We predicted this would be the highest because they were considered the highest risk group for death. 
-    - We are unsure about why this was the case since each state targeted this demographic heavily
+    - We are unsure about why this was the case since each state targeted this demographic heavily.
 - All states followed the same trend in vaccination totals: 5+ > 12+ > 18+ > 65+
     - Possible explanation: 
         - School age children (5+ & 12+ groups) were required to be vaccinated before going back to school
-        - 18+ group were wanting to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
+        - 18+ group wanted to get back to regular life faster (and possibly less fearful of adverse effects from the vaccine)
         - 18+ group may have been required by their workplace to be vaccinated before returning to work in person
 
 ## Doses per State
- Trend: All states did not administer all doses that were distributed.
+Total doses distributed vs Total doses administered by jurisdiction
+ - XL state: New York
+- L state: Pennsylvania
+- M state: Connecticut
+- S state: Maine
  ![image](images/doses.PNG)
+  Trend: All states did not administer all doses that were distributed by the U.S. government.
 
 ## H1: Hypothesis Testing
-Shows independent t-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
+T-tests for “2022 Population Estimate” vs “COVID-19 Deaths”
 - All p-values are far below p = 0.05: 
 
 | Population vs COVID-19 Death | p-values |
@@ -117,7 +126,7 @@ Conclusion:
 - We CANNOT REJECT Alternate Hypothesis 1: The amount of people who died of COVID-19 will be higher in more populated states than in less populated states.
 
 ## H2: Hypothesis Testing 
-- Shows independent t-tests for “Residents with at least one dose” vs 
+T-tests for “Residents with at least one dose” vs 
 “COVID-19 Deaths”
 - All p-values are far below p = 0.05: 
 
